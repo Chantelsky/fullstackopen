@@ -6,4 +6,5 @@
 <ol>
   <li><a href="https://github.com/Chantelsky/fullstackOpen/tree/master/part1/courseinfo">Courseinfo</a></li>
   <li><a href="https://github.com/Chantelsky/fullstackOpen/tree/master/part1/unicafe">Unicafe</a></li>
+  <li><a href="https://github.com/Chantelsky/fullstackOpen/tree/master/part1/anecdotes">Anecodtes</a></li>
 </ol>
