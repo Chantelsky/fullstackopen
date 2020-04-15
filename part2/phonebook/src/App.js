@@ -3,13 +3,15 @@ import Filter from './components/Filter';
 
 const App = () => {
   const [persons, setPersons] = useState([{ name: 'Arto Hellas' }]);
+
+  //showing filtered names
+  const [showAll, setShowAll] = useState(true);
+
+  //phone number state
   const [phoneNum, setPhoneNum] = useState('');
+
   // controlling the form input element.
   const [newName, setNewName] = useState('');
-  const [searchTerm, setSearchTerm] = useState('');
-  const handleChange = (e) => {
-    setSearchTerm(e.target.value);
-  };
 
   const existingUser = (event) => {
     event.preventDefault();
@@ -34,7 +36,7 @@ const App = () => {
   return (
     <div>
       <h2>Phonebook</h2>
-      <Filter input type='text' placeholder='search' value={} />
+      <Filter />
       <form>
         <div>
           <h3>Add a new</h3>

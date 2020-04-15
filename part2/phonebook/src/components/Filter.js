@@ -1,14 +1,25 @@
-import React, { useEffect } from 'react';
+// import React, { useState } from 'react';
 
-const Filter = ({ persons }) => {
-  useEffect(() => {
-    const results = person.filter((people) =>
-      people.name.toLowerCase().includes(setPersons)
-    );
-    return results;
-  });
+// const Filter = ({ persons }) => {
+//   //showing filtered names
+//   const [showAll, setShowAll] = useState(true);
 
-  return <div>{results}</div>;
-};
+//   // const personsToShow = showAll
+//   //   ? persons
+//   //   : persons.filter((person) => person.important === true);
 
-export default Filter;
+//   return (
+//     <div>
+//       <p>
+//         Filter: <input id='name' onChange={setShowAll} />
+//       </p>
+//       <ul>
+//         {personsToShow.map((person) => (
+//           <person key={person.id} person={person} />
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// };
+
+// export default Filter;
