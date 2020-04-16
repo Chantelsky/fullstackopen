@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Filter = () => {
+const Filter = ({ filter, onChange }) => {
   return (
     <>
-      <h2>Filter shown with</h2>
+      <p>
+        Filter shown with:
+        <input value={filter} onChange={onChange} />
+      </p>
     </>
   );
 };
